@@ -38,6 +38,52 @@ header{
 
 /* fin personalizacion del header */
 
+/* inicio personalizacion del contenido de nosotros */
+
+.carousel-item{
+    width: 100%;
+    height: 500px;
+}
+
+.active{
+    background-image: url(./img/b5b843a2-5325-49b2-a7df-01327e002282.webp);
+    background-position: center;
+    background-size: cover;
+}
+.active2{
+    background-image: url(./img/cabanas-jalisco-portada.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.active3{
+    background-image: url(./img/cabanias-el-calafate-santa-cruz-argentina-e1551232067565-800x350.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.nos1texto{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+.container-fluid{
+    background-color: springgreen;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.btn-primary:hover{
+    background-color: orange;
+}
+
+/* fin personalizacion del contenido de nosotros */
+/* inicio personalizacion del contenido de cabañas */
+/* fin personalizacion del contenido de cabañas */
+
 /* personalizacion del footer */
 
 footer{

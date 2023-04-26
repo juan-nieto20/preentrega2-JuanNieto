@@ -7,7 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
         integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="estilos.css">
     <title>Cabañas Alto del Pungo</title>
 </head>
@@ -41,18 +43,82 @@
         </nav>
     </header>
     <!-- termina el header-->
-        <!-- comienza el footer-->
-        <footer>
-            <h2>Altos del Pungo</h2>
-            <p>Todos los derechos reservados</p>
-            <div class="redes">
-                <h3>redes sociales</h3>
-                <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+    <!-- comienza el contenido-->
+    <div id="demo" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <!-- <img src="./img pe2/b5b843a2-5325-49b2-a7df-01327e002282.webp" alt="Cabaña 1"> -->
             </div>
-        </footer>
-        <!-- termina el footer el footer-->
-    
+            <div class="carousel-item active2">
+                <!-- <img src="./img pe2/cabanas-jalisco-portada.jpg" alt="Cabaña 2"> -->
+            </div>
+            <div class="carousel-item active3">
+                <!-- <img src="./img pe2/cabanias-el-calafate-santa-cruz-argentina-e1551232067565-800x350.jpg" alt="Cabaña 3"> -->
+            </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+
+    </div>
+    <h2 class="container-fluid">Sobre nosotros</h2>
+    <div class="nos1texto">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo quidem consequuntur reprehenderit itaque sit enim eius vel pariatur iste at animi quisquam doloribus vero aspernatur deserunt culpa a tempora debitis sint, alias nihil? Sunt mollitia eveniet provident aspernatur, et commodi voluptatibus consequatur voluptates praesentium error a! Exercitationem rem doloribus quia. ipsum dolor, sit amet consectetur adipisicing elit. Ullam iusto assumenda quos reiciendis maiores quae
+            nesciunt eius omnis sunt earum.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum in aliquam incidunt ducimus, ipsam consequatur, iste quis cupiditate fuga explicabo deserunt! Nulla cumque sapiente harum expedita dolores! Earum officiis odit repudiandae officia consequatur, iste consequuntur recusandae necessitatibus quod, excepturi qui quis dicta odio impedit totam, voluptatibus voluptate repellendus quae perspiciatis! ipsum dolor sit amet consectetur adipisicing elit. Non perferendis tempora nam explicabo sequi, optio
+            asperiores blanditiis omnis, libero numquam aperiam qui. Voluptatum cumque repudiandae a ratione quod?
+            Eligendi, tenetur!</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A sed esse quisquam eum. Iusto fugiat repellat dolores sequi similique expedita excepturi vero numquam asperiores minima laudantium nihil cumque sit, praesentium repellendus sapiente mollitia cupiditate beatae suscipit possimus? Esse assumenda quisquam ipsum aut eaque maiores vitae, aspernatur velit, consequuntur deserunt voluptatum! ipsum dolor sit amet consectetur adipisicing elit. Dolore, obcaecati?</p>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1437.9480693731766!2d-64.47561578289361!3d-30.9973691874934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1682545156903!5m2!1ses-419!2sar"
+            width="auto" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <h2 class="container-fluid">¡Contactanos!</h2>
+    <form action="/action_page.php">
+        <div class="form-group">
+            <label for="email">Nombre:</label>
+            <input type="email" class="form-control" placeholder="Indicanos tu nombre" id="email">
+        </div>
+        <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" class="form-control" placeholder="Indicanos tu email" id="email">
+        </div>
+        <div class="form-group">
+            <label for="pwd">Consulta:</label>
+            <input type="password" class="form-control" placeholder="" id="pwd">
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+    <div>
+    </div>
+    <!-- termina el contenido-->
+    <!-- comienza el footer-->
+    <footer>
+        <h2 class="foot">Altos del Pungo</h2>
+        <p>Todos los derechos reservados</p>
+        <div class="redes">
+            <h3>redes sociales</h3>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </footer>
+    <!-- termina el footer el footer-->
+
 
 
 
