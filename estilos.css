@@ -29,13 +29,6 @@ header{
     transition: 1.1s;
 }
 
-@media only screen and (min-width 693px) {
-    .nav-link{
-        padding: 20px 40px 20px 40px !important;
-    }
-}
-
-
 /* fin personalizacion del header */
 
 /* inicio personalizacion del contenido de nosotros */
@@ -82,6 +75,31 @@ header{
 
 /* fin personalizacion del contenido de nosotros */
 /* inicio personalizacion del contenido de cabañas */
+
+.mc1{
+    width: 100%;
+    height: auto;
+    background-color: #333;
+    display: flex;
+}
+
+.card{
+    border: 2px solid orange;
+    padding: 20px;
+}
+
+.card-img-top{
+    width: 250px;
+    height: 200px;
+}
+
+
+/* fin personalizacion del contenido de cabañas */
+/* comienzo personalizacion del contenido de index */
+
+
+
+
 /* fin personalizacion del contenido de cabañas */
 
 /* personalizacion del footer */
